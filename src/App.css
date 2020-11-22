@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__header {
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app_headerTitle {
+  margin-bottom: 10px;
+  color: rgb(218, 218, 218);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__headerForm {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.app__headerFormButton {
+  background: hsl(205, 78%, 60%);
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.app__showColors {
+  min-height: calc(100vh - 100px);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiSnackbarContent-message {
+  margin-left: 18%;
 }
