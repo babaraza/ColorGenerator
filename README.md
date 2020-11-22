@@ -1,7 +1,9 @@
 # Color Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
 The project utilizes [Value.js](https://www.npmjs.com/package/values.js) to generate color values
+
 
 ## How to use
 
