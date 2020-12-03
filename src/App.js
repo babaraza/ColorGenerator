@@ -57,7 +57,12 @@ function App() {
             error={error}
             InputProps={{
               startAdornment: (
-                <InputAdornment position="start">#</InputAdornment>
+                <InputAdornment
+                  style={{ overflow: "visible" }}
+                  position="start"
+                >
+                  #
+                </InputAdornment>
               ),
             }}
           />
